@@ -1,0 +1,182 @@
+body
+{
+	font-family: Arial,"Trebuchet MS","Arial Black",Impact,"Comic Sans MS","Times New Roman";
+
+}
+
+#blocpage {
+    display: flex;
+    width: 60%;
+    height: 90%;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: Impact;
+}
+
+p, ul {
+    font-family: "Times New Roman";
+}
+
+.left {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    
+}
+
+.right {
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: rgba(237,237,237,255);
+    color: rgba(55,63,230,255);
+    
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(227,227,227,255);
+}
+
+.avatar img {
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+#profil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    padding-top: 4%;
+    width:100%;
+    height: 100%;
+    background-color: rgba(55,63,230,255);
+}
+
+#profil article {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#profil h2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#profil p {
+    text-align: justify;
+}
+
+
+.head1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.head1 h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    margin-top: 48px;
+    padding-left: 3%;
+}
+
+.head1 h3 {
+    font-size: 1.5em;
+    font-family: Times, serif;
+    margin-top: 20px;
+    padding-left: 3%;
+    font-weight: lighter;
+}
+
+.bordure {
+    box-sizing: border-box;
+    border-bottom: solid blue 2px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.parcours {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.part1, .part2{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.part1 article {
+    display: flex;
+    
+}
+
+.part1 ul {
+    padding-left: 45px;
+}
+
+.part1 h2, .part2 h2 {
+    font-size: xx-large;
+}
+
+.part2 article {
+    display: flex;
+}
+
+#stage, #etudes {
+    width: 35%;
+}
+
+#stage h3 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#stage p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#taches {
+    width: 70%;
+}
+
+#etudes h3 {
+    margin-bottom: 5px;
+}
+
+#etudes p {
+    margin-top: 5px;
+}
+
+#acquis {
+    text-align: justify;
+    padding-left: 35px; 
+    width: 70%;
+}
+
+.coordonnees {
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+span {
+    padding-left: 10px;
+}
+
+i {
+    width: 20px;
+}
